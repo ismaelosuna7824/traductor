@@ -121,6 +121,128 @@
       ]
     }
   ],
+  "fr": [
+    {
+      "login": [
+        {
+          "language": "Español",
+          "email": "Correo Electrónico",
+          "password": "Contraseña",
+          "facebook": "Iniciar sesión con Facebook",
+          "account": "No tienes una cuenta?",
+          "login": "Iniciar Sesión",
+          "loginFail": "Usuario o Contraseña incorrecta",
+          "create": "Regístrate",
+          "or": "O"
+        }
+      ],
+      "message": [
+        {
+          "loading": "Cargando..."
+        }
+      ],
+      "signup": [
+        {
+          "singup": "Registrarse",
+          "firtsname": "Nombre's",
+          "lastname": "Apellido's",
+          "email": "Correo Electrónico",
+          "phone": "Teléfono Móvil",
+          "password": "Contraseña",
+          "passwordR": "Repetir Contraseña",
+          "account": "Ya tiene una cuenta?"
+        }
+      ],
+      "confirmation": [
+        {
+          "title": "Confirmación de Usuario ",
+          "resend": "Reenviar Código",
+          "button": "Haz click aquí",
+          "confirm": "Confirmar",
+          "text": "Ingresa el código de confirmación"
+        }
+      ],
+      "menu": [
+        {
+          "projects": "Proyectos",
+          "notification": "Notificaciones",
+          "profile": "Perfil",
+          "message": "Mensajes",
+          "home": "Inicio",
+          "back": "Cerrar Sesión"
+        }
+      ],
+      "button": [
+        {
+          "createProject": "Crear Proyecto",
+          "requesProject": "Solicitar Trabajadores"
+        }
+      ],
+      "new_project": [
+        {
+          "button": {
+            "cancel": "cancelar",
+            "back": "back",
+            "next": "next",
+            "save": "save"
+          },
+          "page1": {
+            "name": "What is name of the project?",
+            "number": "What is the PO number of the project?",
+            "addres": "What is the addres of the project?"
+          },
+          "page2": {
+            "supervisor": "What is the Supervisor's name?",
+            "supervisor_number": "What is the Supervisor's phone number?",
+            "daily": "How to much total break time is given daily?",
+            "button": {
+              "minutes": "MINUTES"
+            }
+          },
+          "page3": {
+            "paid": "How much of that break time is covered or paid for?",
+            "overtime": "when is overtime pay available for workers?",
+            "project": "What pase is the project in(optional)?",
+            "button": {
+              "none": "NONE",
+              "hours": "AFTER 40 HOURS/WEEK",
+              "starting": "PRE STARTING PHASE",
+              "starting_phase": "STARTING PHASE",
+              "middle": "MIDDLE PHASE",
+              "endindg": "ENDINDG PHASE"
+            }
+          },
+          "page4": {
+            "project_end": "When will the project end(optional)?",
+            "type_project": "What type od project is it?",
+            "buttons": {
+              "less": "LESS THAN 3 MONTHS",
+              "moths": "MONTHS",
+              "more": "MORE THAN 12 MONTHS",
+              "civil": "CIVIL",
+              "commercial": "COMMERCIAL",
+              "industrial": "INDUSTRIAL",
+              "residential": "RESIDENTIAL",
+              "other": "OTHER"
+            }
+          },
+          "end_page": {
+            "name": "Name:",
+            "number": "PO Number:",
+            "addres": "Addres:",
+            "supervisor_name": "Supervisor Name:",
+            "supervisor_contac": "Supervisor Contact:",
+            "total": "Total Break Time:",
+            "paid": "Paid Break Time:",
+            "overtime": "Overtime:",
+            "project_type": "Project Type:",
+            "project_phase": "Project Phase:",
+            "Project_length": "Project Length:"
+          }
+        }
+      ]
+    }
+  ],
   "en": [
     {
       "login": [
