@@ -121,67 +121,270 @@
       ]
     }
   ],
-  "fr": [
+  "en": [
     {
       "login": [
         {
-          "language": "Español",
-          "email": "Correo Electrónico",
-          "password": "Contraseña",
-          "facebook": "Iniciar sesión con Facebook",
-          "account": "No tienes una cuenta?",
-          "login": "Iniciar Sesión",
-          "loginFail": "Usuario o Contraseña incorrecta",
-          "create": "Regístrate",
-          "or": "O"
+          "language": "English",
+          "email": "E-mail",
+          "password": "Password",
+          "facebook": "Log in with Facebook",
+          "account": "Don't have an acccount?",
+          "login": "Log In",
+          "loginFail": "Incorrect username or password",
+          "create": "Sign up",
+          "or": "Or"
         }
       ],
       "message": [
         {
-          "loading": "Cargando..."
+          "loading": "Plase wait..."
         }
       ],
       "signup": [
         {
-          "singup": "Registrarse",
-          "firtsname": "Nombre's",
-          "lastname": "Apellido's",
-          "email": "Correo Electrónico",
-          "phone": "Teléfono Móvil",
-          "password": "Contraseña",
-          "passwordR": "Repetir Contraseña",
-          "account": "Ya tiene una cuenta?"
+          "singup": "Sign Up",
+          "firtsname": "First Name",
+          "lastname": "Last Name",
+          "email": "E-mail",
+          "phone": "Phone Number",
+          "password": "Password",
+          "passwordR": "repeat password",
+          "account": "Already have an account?"
         }
       ],
       "confirmation": [
         {
-          "title": "Confirmación de Usuario ",
-          "resend": "Reenviar Código",
-          "button": "Haz click aquí",
+          "title": "User Confirmation",
+          "resend": "Resend code?",
+          "button": "Click here",
           "confirm": "Confirmar",
           "text": "Ingresa el código de confirmación"
         }
       ],
       "menu": [
         {
-          "projects": "Proyectos",
-          "notification": "Notificaciones",
-          "profile": "Perfil",
-          "message": "Mensajes",
-          "home": "Inicio",
-          "back": "Cerrar Sesión"
+          "projects": "Projects",
+          "notification": "Notifications",
+          "profile": "Profile",
+          "message": "Messages",
+          "home": "Home",
+          "back": "Sign off"
         }
       ],
       "button": [
         {
-          "createProject": "Crear Proyecto",
-          "requesProject": "Solicitar Trabajadores"
+          "createProject": "CREATE PROJECT",
+          "requesProject": "REQUEST PROJECT"
+        }
+      ],
+      "error_messages": [
+        {
+          "email": [
+            { "type": "required", "message": "email is required" },
+            {
+              "type": "minlength",
+              "message": "email length must be longer or equal than 6 characters"
+            },
+            {
+              "type": "maxlength",
+              "message": "email length must be lower or equal than 35 characters"
+            },
+            { "type": "pattern", "message": "please a valid email address" }
+          ],
+          "firstname": [
+            { "type": "required", "message": "first name is required" },
+            {
+              "type": "minlength",
+              "message": "first name length must be longer or equal than 6 characters"
+            },
+            {
+              "type": "maxlength",
+              "message": "firs tname length must be lower or equal than 35 characters"
+            }
+          ],
+          "lastname": [
+            { "type": "required", "message": "last name is required" },
+            {
+              "type": "minlength",
+              "message": "last name length must be longer or equal than 6 characters"
+            },
+            {
+              "type": "maxlength",
+              "message": "last name length must be lower or equal than 35 characters"
+            }
+          ],
+          "phone": [
+            { "type": "required", "message": "phone is required" },
+            {
+              "type": "minlength",
+              "message": "phone length must be longer or equal than 10 characters"
+            },
+            {
+              "type": "maxlength",
+              "message": "phone length must be lower or equal than 10 characters"
+            }
+          ],
+          "password": [
+            { "type": "required", "message": "password is required" },
+            {
+              "type": "minlength",
+              "message": "last name length must be longer or equal than 6 characters"
+            },
+            {
+              "type": "maxlength",
+              "message": "last name length must be lower or equal than 35 characters"
+            }
+          ],
+          "passwordR": [
+            { "type": "required", "message": "password is required" },
+            {
+              "type": "minlength",
+              "message": "last name length must be longer or equal than 6 characters"
+            },
+            {
+              "type": "maxlength",
+              "message": "last name length must be lower or equal than 35 characters"
+            }
+          ]
+        }
+      ],
+      "add_worker": [
+        {
+          "page1": [
+            {
+              "title": "Select the type of worker(s) you need?",
+              "services": [
+                {
+                  "general": "GENERAL LABOUR",
+                  "framer": "FRAMER",
+                  "finish": "FINISH CARPENTER",
+                  "concrete": "CONCRETE FORMER",
+                  "hardscaper": "HARDSCAPER",
+                  "landscaper": "LANDSCAPER",
+                  "painter": "PAINTER",
+                  "drywaller": "DRY WALLER",
+                  "asbestos": "ASBESTOS",
+                  "warehouse": "WAREHOUSE"
+                }
+              ]
+            }
+          ],
+          "page2": [
+            {
+              "title": "Select the experience level(s) for the worker(s) you need?"
+            }
+          ],
+          "page3": [
+            {
+              "title": "How Many workers do you need",
+              "quantity": "Quantity of workers"
+            }
+          ],
+          "page4": [
+            {
+              "title": "What are the task the Framer(s) will be working on?",
+              "message": "Enter worker task here. A better description helps in getting the best matched worker(s)"
+            }
+          ],
+          "page5": [
+            {
+              "title": "What is the start date for the worker(s)?",
+              "buttons": [
+                {
+                  "select": "SELECT START DATE",
+                  "edit": "EDIT START DATE",
+                  "edit_end": "EDIT END DATE"
+                }
+              ]
+            }
+          ],
+          "page6": [
+            {
+              "title": "Which days of the week do you want workers on your site(s)?",
+              "week": "Weekdays(Mon-Fri)",
+              "saturday": "Saturday",
+              "Sunday": "Sunday"
+            }
+          ],
+          "page7": [
+            {
+              "start_time": "What is the daily start time for the worker(s)?",
+              "buttons": [
+                {
+                  "edit": "EDIT START TIME",
+                  "edit_end": "EDIT END TIME"
+                }
+              ],
+              "end_time": "What is the daily end time for the worker(s)?"
+            }
+          ],
+          "page8": [
+            {
+              "title": "Select any tools of certifications required by the worker",
+              "buttons": [
+                {
+                  "steel_toe_boots": "STEEL TOE BOOTS",
+                  "hard_hat": "HARD HAT",
+                  "safety_vets": "SAFETY VEST",
+                  "tool_betl": "TOOL BELT & BASIC TOOLS",
+                  "fall_safe": "FALL SAFE",
+                  "class": "CLASS 5 DRIVERS LICENCE",
+                  "standard": "STANDARD FIRST AID",
+                  "standard_workplace": "STANDARD WORKPLACE FIRST AID",
+                  "cpr": "CPR C & AED",
+                  "vehicle": "VEHICLE"
+                }
+              ]
+            }
+          ],
+          "page9": [
+            {
+              "title": "Auto Accept Workers",
+              "message": "Would you like the faber team to accept the best workers on your behalf for this request?",
+              "buttons": [
+                {
+                  "yes": "YES",
+                  "no": "NO"
+                }
+              ]
+            }
+          ],
+          "page10": [
+            {
+              "title": "Request Summary",
+              "skil": "Skill",
+              "minimun": "Minimun Experience",
+              "maximun": "Maximun Experience",
+              "quantity": "Quantity of workers",
+              "start": "Start Date",
+              "end": "End Date",
+              "week": "Weekdays",
+              "start_time": "Start Time",
+              "end_time": "End Time",
+              "project": "Project",
+              "requeriments": "Requeriments",
+              "task": "Worker Tasks"
+            }
+          ],
+          "page_end": [
+            {
+              "title": "Thank you for making a worker request!",
+              "message": "You will be notified as soon as we find a worker",
+              "button": [
+                {
+                  "request": "REQUEST ANOTHER WORKER",
+                  "done": "DONE"
+                }
+              ]
+            }
+          ]
         }
       ],
       "new_project": [
         {
           "button": {
-            "cancel": "cancelar",
+            "cancel": "cancel",
             "back": "back",
             "next": "next",
             "save": "save"
@@ -243,7 +446,8 @@
       ]
     }
   ],
-  "en": [
+  
+  "fr": [
     {
       "login": [
         {
